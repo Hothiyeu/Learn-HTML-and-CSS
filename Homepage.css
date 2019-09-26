@@ -1,0 +1,249 @@
+
+.head{
+	margin-top: 30px;
+	width: 90%;
+	height: 30px;
+	display: flex;
+	margin-left: 100px;
+}
+.anhshop img{
+	width: 200px;
+	height: 100px;
+}
+.timkiem .tim2 input{
+	padding: 0px 50px;
+	width: 400px;
+	height: 20px;
+}
+.tim2{
+	display: flex;
+}
+.tim2 img{
+
+	padding: 0;
+	width: 40px;
+	height: 40px;
+
+}
+.timkiem{
+	border: 2px solid #FF6600;
+	margin-top: 30px;
+	display:flex;
+	padding:0;
+}
+.giohang .gio{
+	padding: 0;
+
+}
+
+.giohang{
+    margin-top: 30px;
+    margin-left: 150px;
+	width: 200px;
+	height:30px;
+	float:right;
+	background-color:orange;
+	text-align: center;
+}
+.giohang img{
+	padding: 0;
+	width: 30px;
+	height:30px;
+}
+.head2{
+	margin-left: 100px;
+	margin-top: 100px;
+	width: 90%;
+	height: 30px;
+}
+.head2 .list{
+	float: left;
+	width:20%;
+	height: 500px;
+}
+.list ul{
+	border: 1px solid #FF6600;
+	padding: 0;
+
+}
+.list ul li img{
+	width:20px;
+	height: 20px;
+}
+.list ul li{
+	list-style-type: none;
+	margin-top: 0;
+	width: auto;
+	height: 40px;
+	line-height: 40px;
+	border-bottom: 1px solid #e8e8e8;
+	padding: 0 1em;
+	font-family: arial;  
+	padding:0;
+}
+.list li:hover {
+	background: #CDE2CD;
+}
+.list .T1{
+height: 45px;
+width: auto;
+margin-top:0;
+font-size: 20px;
+text-align: center;
+border:1px solid #e8e8e8;
+
+}
+
+ul li a{
+	text-decoration: none;
+}
+.noidung{
+	float: right;
+	width: 80%;
+	height: 500px;
+}
+.trangchu{
+	
+	line-height: 20px;
+	height: 30px;      
+	background: #FF6600;
+}
+.trangchu ul li{
+	padding: 0px 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+	float: left;
+	display: inline-block;
+	font-size: 16px;
+	color: white;
+
+}
+.trangchu ul li:hover{
+	background: #CDE2CD;
+	
+}
+.noidung1{
+	display: flex;
+}
+
+	
+.noidung1 .dienthoai img{
+    margin-left: 50px;
+	width: 500px;
+	height: 400px;
+}
+.noidung1 .dienthoai{
+	float: left;
+	margin-left: 30px;
+	padding: 0px 20px;
+}
+.noidung1 .sanpham{
+	margin-left: 140px;
+	margin-top:10px;
+	float: right;
+	border: 1px solid grey;
+	width: 300px;
+	height: 300px;
+	text-align: center;
+}
+
+.sanpham img{
+	width: 200px;
+	height: 200px;
+}
+.head3{
+	margin-left: 100px;
+	width: 90%;
+	height: 300px;
+	display: flex;
+}
+.head3 .vay{
+	float: left;
+	width: 20%;
+	height: 400px;
+}
+.vay img{
+	width: 232px;
+	height: 300px;
+}
+.head3 .tui{
+   float: right;
+	width: 80%;
+	height: 300px;
+	
+}
+.tui button{
+	width: 100%;
+	text-align: left;
+	font-size: 20px;
+}
+.listtui{
+	border-left:1px solid grey;
+	border-right:1px solid grey;
+	border-bottom:1px solid grey;
+	margin-top: 0px;
+	display: flex;
+}
+.listtui .tuicon img{
+	padding:0px 5px;
+	width: 150px;
+	height: 150px;
+}
+.head4{
+	margin-top: 10px;
+	margin-left: 100px;
+	width: 90%;
+	height: 400pc;
+
+}
+.head4a{
+	float: left;
+	width: 20%;
+	height: 300px;
+
+}
+.head4a img{
+	width: 232px;
+	height: 300px;
+	border: 1px solid #D228B0;
+}
+.head4b{ 
+	
+   float: right;
+	width: 80%;
+	height: 300px;
+	
+}
+.tuidep img{
+	padding:0px 10px;
+	width: 150px;
+	height: 150px;
+}
+.all .nguoi img{
+ width: 200px;
+ height: 200px;
+}
+.giaythethao img{
+	width: 200px;
+	height: 300px;
+}
+.listgiay{
+	border-top: 2px solid #D228B0;
+	display: flex;
+	border-left: 1px solid #e8e8e8;
+	border-right: 1px solid #e8e8e8;
+	border-bottom: 1px solid #e8e8e8;
+}
+.all .tuidep img{
+	padding: 0px 10px;
+	width: 100px;
+	height: 100px;
+}
+.all{
+	padding: 0px 50px;
+	display: inline-grid;
+    grid-template-columns: auto auto auto;
+}
+.tien{
+	color: red;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+	<meta charset="utf-8">
+	<style>
+		h1{
+			margin-left: 150px;
+		}
+		.AT01{
+			color: red;
+		}
+		.boxbig{
+			display: inline-grid;
+			grid-template-columns: 300px 400px 300px;
+			grid-column-gap:10px;
+			margin-left: 150px;
+		}
+		.thongtin input{
+			width: 250px;
+			height: 20px;
+
+		}
+		.so{
+		padding: 0px 10px;
+		 border-radius:50%;
+		 background-color: #65CC18;
+		 font-size: 30px;
+		 width: 70px;
+		 height: 70px;	
+		}
+		.chu{
+			font-weight: bold;
+			color:  #65CC18;
+			font-size: 20px;
+		}
+        textarea,input{
+        	font-size: 18px;
+        	width: 250px;
+        }
+        .donhang1 img{
+        	width: 30px;
+        	height: 30px;
+        }
+        .donhang{
+        		border:1px solid  #e8e8e8;
+        }
+        .font{
+        	font-weight: bold;
+        	font-size: 20px;
+        	margin-top: 15px;
+        }
+        .donhang1{
+        	border:1px solid  #e8e8e8;
+        	height: 60px;
+        	text-align:left;
+        	
+
+        }
+        .donhang2{
+        	height: 40px;
+        	margin-top:10px;
+        }
+
+        .donhang2 a{
+        	height: 50px;
+        	color:  #65CC18;
+        	
+        	font-size: 20px;
+        	text-decoration: none;
+        }
+        .donhang3{
+        	border:1px solid  #e8e8e8;
+        	height: 60px;
+        	text-align:left;
+        	margin-top:10px;
+
+        }
+        .donhang4{
+        	border:1px solid  #e8e8e8;
+        	height: 50px;
+        	text-align:left;
+
+        }
+        .dathang button{
+        	width:100%;
+        	font-size: 20px;
+        	height:40px;
+        	background-color: #65CC18;
+        	text-align: center;
+        	margin-top: 10px;
+        	border: 1px solid #65CC18;
+        }
+        .dathang button:hover{
+        	background-color:orange;
+        }
+	</style>
+</head>
+<body>
+<h1> Đặt mua mẫu: <span class="AT01">AT01</span></h1>
+<div class="boxbig">
+	<div class="thongtin">
+		<p> <span class="so">1</span> <span class="chu">Nhập thông khách hàng</span></p>
+
+<table >
+    <tr>
+    	<td><input type="text" placeholder="Họ và tên"></td>
+    </tr>  
+    <tr>
+    	<td><input type="text" placeholder="Điện thoại"></td>
+    </tr>
+    <tr>
+    	<td><input type="text" placeholder="Email"></td>
+    </tr>
+    <tr>
+    	<td><input type="text" placeholder="Địa chỉ"></td>
+    </tr>
+    
+    <tr>
+        <td colspan="2">
+            
+            <textarea cols="26" rows="4" placeholder="Ghi chú"></textarea>
+        </td>
+       
+    </tr>
+    
+</table>
+
+		
+	</div>
+	<div class="thanhtoan">
+		<p><span class="so"> 2</span> <span class="chu">Chọn hình thức thành toán</span></p>
+		<p>
+            <select style="font-size:18px;">
+            	<option> Internet Banking/ATM nội địa(giảm 5%)</option>
+            	<option> Cheese</option>
+            	<option> Soup </option>
+            </select>
+        </p>
+        <p style="font-size:20px;"> Thành toán online bằng internet hoặc thẻ ATM nội địa để được giảm ngay<span style="color: red;" > 5%</span>, hổ trợ tất cả ngân hàng, thành toán an toàn qua cổng VTCPLAY.</p>
+	</div>
+	<div >
+		<p><span class="so"> 3</span><span class="chu"> Xem lại đơn hàng</span></p>
+		<div class="donhang">
+		<div class="donhang1">
+         <img src="..\IMAGE\ll.png" alt="fg"> &nbsp; &nbsp; <span  class="font">Mẫu AT01 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.800.000đ</span>
+		</div>
+		<div class="donhang2">
+			<a href="#"> Nhập mã giảm giá >> </a>
+		</div>
+		<div class="donhang3">
+			<span  class="font">Tạm tính   &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;2.800.000đ</span>
+			<br>
+			<span class="font">Giảm giá </span>  &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red;">-140.000đ</span>
+		</div>
+		<div class="donhang4">
+			<span class="font">Tổng cộng</span>  <span style="color: #65CC18; font-size: 20px;">&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.520.00đ</span>
+		</div>
+		</div>
+		<div class="dathang">
+			<button>Đặt hàng</button>
+		</div>
+	
+	</div>
+</div>
+</body>
+</html>

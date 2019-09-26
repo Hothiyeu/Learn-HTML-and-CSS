@@ -1,0 +1,281 @@
+ #container{
+    width: 100%;      
+    margin: 0px auto;   /*Canh giữa màn hình*/
+    text-align: center; /*Text bên trong canh giữa*/
+    font-size: 30px;    /*Font chữ 30px*/
+    color: #FFF;        /*Font màu trắng*/
+}
+
+#header{
+    position: top;
+    float: left;
+    width: 100%;
+    height: 50px;      /*Cao 100px*/
+    background-color:green; 
+    display: inline-grid;
+    grid-template-columns: 450px 400px;
+    grid-column-gap:0;  /*Nền màu xanh*/
+}
+#header .headercon{
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 22px;
+    margin-left: 100px;
+}
+/*  HEAD 2   */
+#head2{
+
+    width: 100%;
+    height: 100px;      /*Cao 100px*/
+    background: white;  
+    display: flex;
+   
+   
+}
+#head2 .khungto{
+    margin-left: 100px;
+    display:grid;
+    grid-column-gap: 100px;
+    grid-template-columns: 200px 200px 200px 200px 180px;
+}
+#head2 img{
+ float: left;
+ width: 150px;
+ height: 150px;
+
+}
+#head2 .a2{
+    margin-top:30px;
+    color: black;
+    font-size: 18px;
+
+}
+#head2 .a2 img{
+ width: 50px;
+ height: 50px;
+}
+#head2 .a3 img{
+ width: 30px;
+ height: 30px;
+
+}
+#head2 .a3 {
+ font-size: 17px;
+ margin-top: 30px;
+ background-color:green;
+ width: 120px;
+ height: 60px;
+ 
+}
+
+/* head 3  */
+#head3{
+    line-height: 35px;
+    height: 40px;      /*Cao 100px*/
+    background: green;
+}
+#head3 ul li{
+    margin-left: 100px;
+    float: left;
+    display: inline-block;
+    font-size: 25px;
+}
+#head3 ul li:hover{
+    background: #CDE2CD;
+    height: 40px;
+}
+#head3 .timkiem{
+    float: right;
+    margin-right:200px;
+    display:grid;
+    grid-column-gap:45px;
+    grid-template-columns: 70px 50px;
+}
+
+#head3 .timkiem img{
+width: 20px;
+margin-top:13px;
+height: 20px;}
+
+#head3 .timkiem .timkiemcon input{
+width: 150px;
+height: 20px;
+}
+
+
+
+/* content  */
+.content{
+    float:left;     /*Nằm bên trái*/
+    width:30%;   /*Rộng 700px*/
+    height:400px;  /*Cao 300px*/
+}
+.content .menu1{
+float:right;
+margin-top:0;
+padding-top:0;
+padding-right: 50px;
+width: 65%;
+height: 400px;
+background-color: white;
+}
+
+.content .T1{
+/*height: 65px;*/
+background-color: #65CC18;
+height: 45px;
+margin-top:0;
+font-size: 30px;
+text-align: center;
+border-radius: 15px;
+
+}
+
+
+
+.menu1 ul li {
+text-align: left;
+
+}
+.menu1 a{
+font-size: 13px;
+color: black;
+text-decoration: none;
+}
+.menu1 li:hover {
+ background: #CDE2CD;
+}
+
+.menu1 ul{
+margin-left: 5px;
+border-radius: 15px;
+padding: 0;
+border: 1px solid #e8e8e8;
+width:100%;
+
+}
+.menu1 li{
+ margin-top: 0;
+ width: auto;
+ height: 40px;
+ line-height: 40px;
+ border-bottom: 1px solid #e8e8e8;
+ padding: 0 1em;
+ font-family: arial;  
+
+
+}
+.btn{
+    border: 1px solid grey;
+}
+.btn1{
+    border: 1px solid grey;
+}
+.btn1:hover{
+    background-color: orange;
+}
+
+
+.sidebar{
+    width: 70%;   /*Rộng 300px*/
+    float: right;   /*Nằm bên phải*/
+    height: 400px;  /*Cao 100px*/
+    background:white;/*Nền màu hồng*/
+}
+.hoa{
+    width: 100%;
+    height: 200px;
+}
+#footer{
+    background: white;
+    height: 600px;
+    margin-left: 120px;
+
+}
+.clear{
+    clear:both
+}
+h4{
+    color:white;
+    float: left;
+    background-color: #65CC18;
+    border-radius:15px 15px;
+
+}
+  #footer a{
+    font-size: 25px;
+    float: right;
+    color:black;
+    text-decoration: none;
+}
+#footer .hoaqua{
+   
+    float: left;
+    display: inline-grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-column-gap: 50px;
+    grid-template-rows: 520px;
+    font-size: 20px;
+    }
+
+.hoaqua .nho,.cam,.tao,.chuoi {
+    background-color:white; 
+    color: black;
+    border-radius:15px 15px;
+    border: 2px solid #e8e8e8;
+}
+.hoaqua p{
+    color: #FFCC33;
+}
+.hoaqua img{
+    width: 300px;
+    height: 300px;
+}
+.hoaqua button{
+    background-color:white;
+    width:100px;
+    height: 30px;
+}
+.hoaqua input{
+    background-color: green;
+     width:100px;
+    height: 30px;
+}
+.footcuoi{
+    margin-top: 100px;
+    width: 100%;
+    height: 200px;
+    background-color: #65CC18;
+    display: inline-grid;
+    grid-template-columns: 600px 300px 200px;
+     grid-column-gap: 80px;
+     font-size: 20px;
+     color: white;
+     font-family: Time New Roman;
+
+    }
+    .footcuoi .lienhe{
+        float: left;
+        margin-left:100px;
+    }
+
+    .sidebar .mySlides{
+        margin-top: 30px;
+        width: 800px;
+        height: 370px;
+        border-radius: 15px 15px;
+        margin-left: 100px;
+        border: 2px solid #e8e8e8;
+
+    }
+    .hoaqua .tao img,.chuoi img,.cam img{
+        margin-top: 75px;
+    }
+    
+    .hoaqua .nho #dau{
+        margin-top: 20px;
+        color: white;
+        font-size: 30px;
+        float: left;
+        background-color: green;
+    }

@@ -1,0 +1,75 @@
+.head1{
+	width: 80%;
+	height: 50px;
+	display: inline-flex;
+	margin-left: 200px;
+
+	background-image: linear-gradient(-90deg,white,red, yellow);
+	color:white;
+}
+.head1a img{
+	width: 40px;
+	height: 40px;
+
+}
+.home ul{
+	display: inline-flex;
+	
+
+}
+.home ul li{
+	color:white;
+	padding: 0px 20px;
+	list-style-type: none;
+}
+.head2{
+	background-color: #9B6ADE;
+	margin-left: 200px;
+	height: 40px;
+	width: 80%;
+}
+.head3{
+	width: 80%;
+	height: 700px;
+	margin-left: 200px;
+	display: inline-flex;
+}
+.chu{
+	margin-top: 30px;
+	float: left;
+	width: 20%;
+	height: 700px;
+	border: 1px solid black;
+}
+.anh{
+	margin-left:10px;
+	margin-top: 30px;
+	float: right;
+	width: 80%;
+	height: 700px;
+	border: 1px solid black;
+	display: grid;
+	grid-template-columns: auto auto auto;
+}
+.anh .canchu{
+	margin-left: 20px;
+}
+.anh img{
+	padding:0;
+	width: 260px;
+	height: 250px;
+}
+.anh1{
+	border: 1px solid #e8e8e8;
+	margin:10px;
+}
+.anh1 i{
+	border: 1px solid black;
+	padding: 5px;
+}
+.icon-heart{
+	margin-left: 120px;
+}
+.gio img{
+
+}
